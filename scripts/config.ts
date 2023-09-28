@@ -2,6 +2,7 @@ import path from 'path'
 import type { BranchConfig, Package } from './types'
 
 // TODO: List your npm packages here. The first package will be used as the versioner.
+// This is config file
 export const packages: Package[] = [
   { name: '@tanstack/query-core', packageDir: 'query-core', srcDir: 'src' },
   {
